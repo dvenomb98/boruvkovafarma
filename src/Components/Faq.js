@@ -9,10 +9,10 @@ function Faq() {
         },
         {
             question: "Od kdy do kdy trvá sezóna?",
-            answer: "Zrání borůvek začíná od začátku července do konce září, jelikož v průběhu sezóny dozrává postupně 5 odrůd kanadských borůvek, které se pyšní každá svou jedinečnou chutí."
+            answer: "Zrání borůvek začíná od začátku července do září, jelikož v průběhu sezóny dozrává postupně 5 odrůd kanadských borůvek, které se pyšní každá svou jedinečnou chutí."
         },
         {
-             question: "A že nejsou kanadské borůvky to samé jako ty z lesa",
+             question: "A že nejsou kanadské borůvky to samé jako ty z lesa?",
             answer: "Nejsou. Jsou to jiné druhy tohoto úžasného ovoce a oba mají své specifické vlastnosti. Na vzrostlém keři kanadské borůvky můžete ale s přehledem sklidit i kolem 7 kg ovoce, u větších keřů klidně i více. Oproti lesním borůvkám můžete plody kanadských borůvek skladovat i měsíc v lednici a stále budou čerstvé. Lze borůvky i zamrazit do zásoby. Co se týká chuti, no to musíte posoudit sami. Věříme ale, že si chuť našich borůvek zamilujete stejně tak jako my."  
         }
     ]

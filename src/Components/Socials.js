@@ -8,7 +8,7 @@ function Socials() {
         <div className="container mx-auto px-5 py-16 flex flex-col gap-10 items-center lg:flex-row">
         
         <div className="flex flex-col gap-10 justify-center lg:flex-col">
-            <h3 className="font-hand text-center text-4xl lg:text-6xl">Sledujte nás <span className="text-indigo-600">na sociálních sitích!</span></h3>
+            <h3 className="font-hand text-center text-4xl lg:text-6xl">Sledujte nás <span className="text-indigo-600">na sociálních sítích!</span></h3>
             <div className="flex gap-10 flex-row justify-center">
                  <a target="_blank" href="https://www.facebook.com/Borůvková- farma-Čejkovice-102015742194998/">
                     <img src={facebook} className="w-10" alt="instagram" />

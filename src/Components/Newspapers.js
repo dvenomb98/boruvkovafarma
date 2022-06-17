@@ -11,19 +11,19 @@ function Newspapers({newsPapers}) {
         <div className="flex flex-col gap-10 pt-20 lg:grid lg:grid-cols-2">
         {newsPapers?.news?.map(post => (
             <a key={post.title} href={post?.url} target="_blank">
-                <div className=" group flex flex-col items-center bg-white rounded-md shadow-xl sm:flex-row cursor-pointer">
+                <div className=" group flex flex-col items-center bg-white rounded-md shadow-xl sm:flex-row cursor-pointer md:h-96">
 
                     <div className="flex flex-col gap-5 p-5 basis-4/5 self-start">
                         
                         <h4 className="font-bold underline text-lg md:text-2xl">{post.title}</h4>
                         <p className="text-gray-500">{post.desc}</p>
-    
+    w
                     </div>
 
                    
 
                     <div className="w-full h-full">
-                        <img src={post.img} className="w-full h-full object-cover" />
+                        <img src={post.img} className="w-full h-full object-cover rounded-md " />
                     </div>
 
                 </div>
