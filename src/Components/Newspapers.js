@@ -17,7 +17,7 @@ function Newspapers({newsPapers}) {
                         
                         <h4 className="font-bold underline text-lg md:text-2xl">{post.title}</h4>
                         <p className="text-gray-500">{post.desc}</p>
-    w
+    
                     </div>
 
                    
