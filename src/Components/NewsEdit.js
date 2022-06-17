@@ -16,7 +16,7 @@ function NewsEdit() {
                 [name]: value
                 }
             })
-            console.log(formData)
+           
         }
 
 
