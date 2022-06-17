@@ -23,7 +23,7 @@ function Pravidla() {
   return (
     <div className="bg-slate-100">
     <div id="pravidla" className="container mx-auto px-5 py-16">
-      <h3 className="font-hand text-4xl lg:text-6xl">Pravidla <span className="text-indigo-600">Samosběru</span></h3>
+      <h3 className="font-hand text-4xl lg:text-6xl">Pravidla <span className="text-indigo-600">samosběru</span></h3>
     <div className="lg:flex justify-between items-center lg:pt-10">
         <div>
         <ul className="flex flex-col gap-2 py-5">

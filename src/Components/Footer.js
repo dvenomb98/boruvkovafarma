@@ -34,7 +34,7 @@ function Footer() {
             
                 <div>
                     <p className="text-3xl font-hand font-bold">Podpořte nás!</p>
-                    <p className="py-5"><span className="underline">Bankovní účet</span>: Česká spořitelna 2146216073/080</p>
+                    <p className="py-5"><span className="underline">Bankovní účet</span>: Česká spořitelna 2146216073/0800</p>
                     <QRCode value={"SPD*1.0*ACC:CZ4008000000002146216073*AM:0.00*CC:CZK*MSG:DAR-Podpora Borůvkové farmy*RN:RADEK KVASNIČKA*"} />
                </div>
             <div className="flex flex-col gap-5 ">

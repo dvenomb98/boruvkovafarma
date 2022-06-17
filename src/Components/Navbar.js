@@ -10,15 +10,16 @@ function Navbar() {
   return (
       <div className="bg-white">
         <div className="container mx-auto px-5 py-10 flex items-center justify-between z-50 sticky top-0 sm:relative">
-            <div className="flex flex-col items-center">
+            <div className="flex flex-row items-center justify-center">
                 <Link to="/">
                   <img src={blueberries} alt="boruvky" className="w-20" />
                 </Link>
+                <h1 className="font-hand text-2xl">Borůvková farma Čejkovice</h1>
             </div>
 
-            <MenuIcon onClick={() => setIsOpened(prevState => !prevState)} className="sm:hidden w-6 cursor-pointer" />
+            <MenuIcon onClick={() => setIsOpened(prevState => !prevState)} className="lg:hidden w-6 cursor-pointer" />
 
-            <nav className="hidden sm:block">
+            <nav className="hidden lg:block">
               <ul className="flex gap-5 lg:gap-10" >
                 <Link to ="/"><li className=" cursor-pointer">Hlavní stránka</li></Link>
                  <Link to ="/novinky"><li className=" cursor-pointer">Novinky</li></Link>
@@ -30,7 +31,7 @@ function Navbar() {
             </nav>
 
 
-            <nav className={`${isOpened ? "translate-x-0" : "translate-x-full"} fixed top-0 sm:hidden h-full right-0 w-1/2 bg-indigo-100 z-50`}>
+            <nav className={`${isOpened ? "translate-x-0" : "translate-x-full"} fixed top-0 lg:hidden h-full right-0 w-1/2 bg-indigo-100 z-50`}>
             <ul className="flex flex-col mt-32 uppercase gap-10 items-start ml-7">
                 <Link onClick={() => setIsOpened(prevState => !prevState)} to ="/"><li className=" cursor-pointer hover:opacity-80">Hlavní stránka</li></Link>
                 <Link onClick={() => setIsOpened(prevState => !prevState)}  to="/novinky"><li className=" cursor-pointer hover:opacity-80">Novinky</li></Link>

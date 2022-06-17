@@ -37,7 +37,7 @@ function Contact() {
                   <p></p>
               </div>
 
-              <a href="#" className="text-white bg-indigo-600 p-3 rounded-md cursor-pointer text-center hover:opacity-90 md:w-2/4">ODKAZ NA MAPY</a>
+              <a href="https://www.google.com/maps/place/49%C2%B001'01.9%22N+14%C2%B023'02.0%22E/@49.0171889,14.3838889,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x71a3a0c8dd5b66ab!8m2!3d49.0171889!4d14.3838889" className="text-white bg-indigo-600 p-3 rounded-md cursor-pointer text-center hover:opacity-90 md:w-2/4">ODKAZ NA MAPY</a>
 
           </div>
 

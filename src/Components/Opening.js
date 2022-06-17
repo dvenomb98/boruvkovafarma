@@ -6,7 +6,7 @@ function Opening({timeSchedule}) {
   return (
    <div className="bg-slate-50">
       <div className="container mx-auto px-5 py-16">
-        <h3 className="font-hand text-4xl lg:text-6xl">Otevírací Doba <span className="text-indigo-600">Samosběr</span></h3>
+        <h3 className="font-hand text-4xl lg:text-6xl">Otevírací doba</h3>
         <p className="text-red-600 pt-5">Změna otevírací doby podle počasí vyhrazena!</p>
         <Link  to="pravidla" spy={true} smooth={true} offset={50} duration={500}>
           <p className="text-gray-500 underline cursor-pointer hover:text-neutral-900 inline">Pravidla samosběru</p>

@@ -5,7 +5,7 @@ function Cenik({cenik}) {
   return (
     <div className="bg-slate-50">
       <div className="container mx-auto px-5 py-16">
-        <h3 className="font-hand text-4xl lg:text-6xl">Ceník <span className="text-indigo-600">Samosběr</span></h3>
+        <h3 className="font-hand text-4xl lg:text-6xl">Ceník</h3>
         <div className="md:flex md:flex-row md:justify-between md:items-center gap-10">
           <div className="md:w-2/3 lg:w-1/2 md:text-lg">
             <div className="pt-10">
