@@ -4,17 +4,17 @@ import pravidla from "../images/pravidla.jpg"
 function Pravidla() {
 
     const rules = [
-        "Řídíte se pokyny pracovníků borůvkové farmy.",
+        "Říďte se pokyny pracovníků borůvkové farmy.",
         "Borůvky se sbírají do vlastních nádob s minimálním odběrem 2kg / os.",
-        "Vlastní nádobu si necháte zvážit u vstupu. Na nádobu Vám bude napsána odpovídající hmotnost.",
+        "Vlastní nádobu si nechte zvážit u vstupu. Na nádobu Vám bude napsána odpovídající hmotnost.",
         "Obsluha samosběru Vám určí místo pro trhání borůvek.",
-        "Sbíráte všechny zralé plody bez ohledu na velikost.",
-        "Nepoškozujete porost borůvek a nevstupujete do okolních porostů, které nejsou určeny pro samosběr.",
+        "Sbírejte všechny zralé plody bez ohledu na velikost.",
+        "Nepoškozujte porost borůvek a nevstupujte do okolních porostů, které nejsou určeny pro samosběr.",
         "Vstup dětem mladší 12 let a psům není povolen.",
         "V celém areálu borůvkové farmy a na všech polích platí zákaz kouření.",
-        "Po ukončení trhání si necháte zvážit všechny nádoby s borůvkami.",
+        "Po ukončení trhání si nechte zvážit všechny nádoby s borůvkami.",
         "Obsluha na pokladně Vám sdělí vypočtený obnos.",
-        "Platba možná pouze v hotovosti."
+        "Platba možna pouze v hotovosti."
     ]
 
 
@@ -27,8 +27,8 @@ function Pravidla() {
     <div className="lg:flex justify-between items-center lg:pt-10">
         <div>
         <ul className="flex flex-col gap-2 py-5">
-        {rules.map(rule => (
-            <li className="text-gray-500">• {rule}</li>
+        {rules.map((rule, index) => (
+            <li key={index} className="text-gray-500">• {rule}</li>
         ))}
             
         </ul>

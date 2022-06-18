@@ -8,7 +8,7 @@ function Navbar() {
   const [isOpened, setIsOpened] = React.useState(false)
 
   return (
-      <div className="bg-white">
+      <div className="bg-white sticky top-0 w-full z-50 lg:relative">
         <div className="container mx-auto px-5 py-10 flex items-center justify-between z-50 sticky top-0 sm:relative">
             <div className="flex flex-row items-center justify-center">
                 <Link to="/">
