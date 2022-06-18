@@ -24,8 +24,8 @@ function Faq() {
   return (
     <div id="faq" className="container mx-auto px-5 py-16">
          <h3 className="font-hand text-4xl lg:text-6xl pb-10">Často <span className="text-indigo-600">kladené otázky</span></h3>
-    {questions.map(quest => (
-        <div key={quest}>
+    {questions.map((quest,index) => (
+        <div key={index}>
             <h5 className="font-bold text-lg lg:text-xl">{quest.question}</h5>
             <p className="text-gray-500 py-5">{quest.answer}</p>
          
